@@ -42,6 +42,26 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade 2: ");
     scanf("%d", &pontos2);
 
+    // Exibição organizada da Carta 1
+    printf("\n--- Dados da Carta 1 ---\n");
+    printf("Estado: %s\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Cidade: %s\n", cidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", pontos1);
+
+    // Exibição organizada da Carta 2
+    printf("\n--- Dados da Carta 2 ---\n");
+    printf("Estado: %s\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Cidade: %s\n", cidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontos2);
+
     // Comparação (exemplo: população)
     printf("\n===== Resultado da Comparação =====\n");
     if (populacao1 > populacao2) {
